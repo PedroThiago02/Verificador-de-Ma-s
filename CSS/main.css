@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    /* Gradiente de fundo para o body */
+    color: #fff;
+    /* Cor do texto */
+    font-family: 'Roboto', sans-serif;
+    /* Fonte principal */
+    padding: 20px;
+    /* Espaçamento interno */
+}
+
+.container {
+    max-width: 600px;
+    /* Largura máxima do container */
+    margin: 0 auto;
+    /* Centraliza o container na página */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fundo do container com opacidade */
+    padding: 30px;
+    /* Espaçamento interno do container */
+    border-radius: 10px;
+    /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+    color: #4b6cb7; 
+    /*Define cor do texto do container para azul */
+}
+
+.resultado {
+    font-size: 24px;
+    /* Tamanho da fonte do resultado */
+    text-align: center;
+    /* Alinhamento central do texto */
+    padding: 20px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Borda arredondada */
+    margin-top: 20px;
+    /* Espaçamento superior */
+}
+
+/* Animação do botão de verificar */
+.btn-verificar {
+    transition: all 0.3s ease;
+    /* Transição suave de 0.3 segundos */
+}
+
+.btn-verificar:hover {
+    transform: scale(1.1);
+    /* Efeito de escala ao passar o mouse */
+}

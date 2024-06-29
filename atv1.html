@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"> <!-- Define o charset UTF-8 para suportar caracteres especiais -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Define o modo de compatibilidade com o IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Configura a viewport para dispositivos móveis -->
+    <title>Verificador de Maçãs</title> <!-- Título da página exibido na aba do navegador -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o CSS do Bootstrap -->
+
+    <!-- Conectando o HTML com o CSS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Tag para a conexão CSS -->
+
+    <!-- Conectando o HTML com o JavaScript -->
+    <script src='main.js'></script>
+    <!-- Tag para a conexão JavaScript -->
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Verificador de Maçãs</h1> <!-- Título principal centralizado -->
+
+        <div class="form-group">
+            <label for="maças">Quantidade total de maçãs:</label> <!-- Label para o input de quantidade de maçãs -->
+            <input type="number" id="maças" class="form-control"> <!-- Input para inserir a quantidade de maçãs -->
+        </div>
+
+        <div class="form-group">
+            <label for="verde">Número de maçãs verdes:</label> <!-- Label para o input de quantidade de maçãs verdes -->
+            <input type="number" id="verde" class="form-control">
+            <!-- Input para inserir a quantidade de maçãs verdes -->
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block btn-verificar" onclick="dados()">Verificar</button>
+        <!-- Botão de verificação estilizado com Bootstrap e com animação CSS -->
+
+        <div class="resultado" id="resultado"></div> <!-- Div para exibir o resultado da verificação -->
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery (versão compacta) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+
+</body>
+
+</html>
